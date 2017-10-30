@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpunit bootstrap="./tests/bootstrap.php">
+    <testsuites>
+        <testsuite name="mTask">
+            <!--<directory>tests</directory>-->
+            <file>tests/TestMultiHttpTask.php</file>
+            <file>tests/MultiHttpTaskTest.php</file>
+        </testsuite>
+    </testsuites>
+    <php>
+        <const  name="PHPUNIT_TEST" value="1" />
+        <const  name="PHPUNIT_CHARSET" value="UTF-8" />
+    </php>
+</phpunit>
